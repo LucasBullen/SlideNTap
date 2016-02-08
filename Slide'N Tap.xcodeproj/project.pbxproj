@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0671846194148040000E64C /* homePage.png in Resources */ = {isa = PBXBuildFile; fileRef = A0671845194148040000E64C /* homePage.png */; };
+		A084BAAB194B8E9C0080B0B6 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = A084BAAA194B8E9C0080B0B6 /* settings.plist */; };
 		A08B5D641937CF36001D3C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08B5D631937CF36001D3C22 /* Foundation.framework */; };
 		A08B5D661937CF36001D3C22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08B5D651937CF36001D3C22 /* CoreGraphics.framework */; };
 		A08B5D681937CF36001D3C22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08B5D671937CF36001D3C22 /* UIKit.framework */; };
@@ -17,7 +19,6 @@
 		A08B5D791937CF36001D3C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08B5D771937CF36001D3C22 /* Main.storyboard */; };
 		A08B5D7C1937CF36001D3C22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08B5D7B1937CF36001D3C22 /* ViewController.m */; };
 		A08B5D7F1937CF36001D3C22 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A08B5D7E1937CF36001D3C22 /* MyScene.m */; };
-		A08B5D811937CF36001D3C22 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = A08B5D801937CF36001D3C22 /* Spaceship.png */; };
 		A08B5D831937CF36001D3C22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08B5D821937CF36001D3C22 /* Images.xcassets */; };
 		A08B5D8A1937CF36001D3C22 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08B5D891937CF36001D3C22 /* XCTest.framework */; };
 		A08B5D8B1937CF36001D3C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08B5D631937CF36001D3C22 /* Foundation.framework */; };
@@ -37,15 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A08B5D601937CF36001D3C22 /* SlideGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0671845194148040000E64C /* homePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homePage.png; sourceTree = "<group>"; };
+		A084BAAA194B8E9C0080B0B6 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
+		A08B5D601937CF36001D3C22 /* Slide'N Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slide'N Tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08B5D631937CF36001D3C22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A08B5D651937CF36001D3C22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A08B5D671937CF36001D3C22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A08B5D691937CF36001D3C22 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		A08B5D6D1937CF36001D3C22 /* SlideGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlideGame-Info.plist"; sourceTree = "<group>"; };
+		A08B5D6D1937CF36001D3C22 /* Slide'N Tap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Slide'N Tap-Info.plist"; sourceTree = "<group>"; };
 		A08B5D6F1937CF36001D3C22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A08B5D711937CF36001D3C22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A08B5D731937CF36001D3C22 /* SlideGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideGame-Prefix.pch"; sourceTree = "<group>"; };
+		A08B5D731937CF36001D3C22 /* Slide'N Tap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Slide'N Tap-Prefix.pch"; sourceTree = "<group>"; };
 		A08B5D741937CF36001D3C22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A08B5D751937CF36001D3C22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A08B5D781937CF36001D3C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,11 +56,10 @@
 		A08B5D7B1937CF36001D3C22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A08B5D7D1937CF36001D3C22 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		A08B5D7E1937CF36001D3C22 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		A08B5D801937CF36001D3C22 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		A08B5D821937CF36001D3C22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A08B5D881937CF36001D3C22 /* SlideGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08B5D881937CF36001D3C22 /* Slide'N TapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slide'N TapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08B5D891937CF36001D3C22 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A08B5D911937CF36001D3C22 /* SlideGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlideGameTests-Info.plist"; sourceTree = "<group>"; };
+		A08B5D911937CF36001D3C22 /* Slide'N TapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Slide'N TapTests-Info.plist"; sourceTree = "<group>"; };
 		A08B5D931937CF36001D3C22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A08B5D951937CF36001D3C22 /* SlideGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideGameTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,8 +102,8 @@
 		A08B5D611937CF36001D3C22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A08B5D601937CF36001D3C22 /* SlideGame.app */,
-				A08B5D881937CF36001D3C22 /* SlideGameTests.xctest */,
+				A08B5D601937CF36001D3C22 /* Slide'N Tap.app */,
+				A08B5D881937CF36001D3C22 /* Slide'N TapTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +123,7 @@
 		A08B5D6B1937CF36001D3C22 /* SlideGame */ = {
 			isa = PBXGroup;
 			children = (
+				A0671845194148040000E64C /* homePage.png */,
 				A08B5D741937CF36001D3C22 /* AppDelegate.h */,
 				A08B5D751937CF36001D3C22 /* AppDelegate.m */,
 				A08B5D771937CF36001D3C22 /* Main.storyboard */,
@@ -128,8 +131,8 @@
 				A08B5D7B1937CF36001D3C22 /* ViewController.m */,
 				A08B5D7D1937CF36001D3C22 /* MyScene.h */,
 				A08B5D7E1937CF36001D3C22 /* MyScene.m */,
-				A08B5D801937CF36001D3C22 /* Spaceship.png */,
 				A08B5D821937CF36001D3C22 /* Images.xcassets */,
+				A084BAAA194B8E9C0080B0B6 /* settings.plist */,
 				A08B5D6C1937CF36001D3C22 /* Supporting Files */,
 			);
 			path = SlideGame;
@@ -138,10 +141,10 @@
 		A08B5D6C1937CF36001D3C22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A08B5D6D1937CF36001D3C22 /* SlideGame-Info.plist */,
+				A08B5D6D1937CF36001D3C22 /* Slide'N Tap-Info.plist */,
 				A08B5D6E1937CF36001D3C22 /* InfoPlist.strings */,
 				A08B5D711937CF36001D3C22 /* main.m */,
-				A08B5D731937CF36001D3C22 /* SlideGame-Prefix.pch */,
+				A08B5D731937CF36001D3C22 /* Slide'N Tap-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,7 +161,7 @@
 		A08B5D901937CF36001D3C22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A08B5D911937CF36001D3C22 /* SlideGameTests-Info.plist */,
+				A08B5D911937CF36001D3C22 /* Slide'N TapTests-Info.plist */,
 				A08B5D921937CF36001D3C22 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -167,26 +170,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A08B5D5F1937CF36001D3C22 /* SlideGame */ = {
+		A08B5D5F1937CF36001D3C22 /* Slide'N Tap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A08B5D991937CF36001D3C22 /* Build configuration list for PBXNativeTarget "SlideGame" */;
+			buildConfigurationList = A08B5D991937CF36001D3C22 /* Build configuration list for PBXNativeTarget "Slide'N Tap" */;
 			buildPhases = (
-				A08B5D5C1937CF36001D3C22 /* Sources */,
 				A08B5D5D1937CF36001D3C22 /* Frameworks */,
+				A08B5D5C1937CF36001D3C22 /* Sources */,
 				A08B5D5E1937CF36001D3C22 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SlideGame;
+			name = "Slide'N Tap";
 			productName = SlideGame;
-			productReference = A08B5D601937CF36001D3C22 /* SlideGame.app */;
+			productReference = A08B5D601937CF36001D3C22 /* Slide'N Tap.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A08B5D871937CF36001D3C22 /* SlideGameTests */ = {
+		A08B5D871937CF36001D3C22 /* Slide'N TapTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A08B5D9C1937CF36001D3C22 /* Build configuration list for PBXNativeTarget "SlideGameTests" */;
+			buildConfigurationList = A08B5D9C1937CF36001D3C22 /* Build configuration list for PBXNativeTarget "Slide'N TapTests" */;
 			buildPhases = (
 				A08B5D841937CF36001D3C22 /* Sources */,
 				A08B5D851937CF36001D3C22 /* Frameworks */,
@@ -197,9 +200,9 @@
 			dependencies = (
 				A08B5D8E1937CF36001D3C22 /* PBXTargetDependency */,
 			);
-			name = SlideGameTests;
+			name = "Slide'N TapTests";
 			productName = SlideGameTests;
-			productReference = A08B5D881937CF36001D3C22 /* SlideGameTests.xctest */;
+			productReference = A08B5D881937CF36001D3C22 /* Slide'N TapTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -211,12 +214,15 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Lucas;
 				TargetAttributes = {
+					A08B5D5F1937CF36001D3C22 = {
+						DevelopmentTeam = 95ML3LKRD9;
+					};
 					A08B5D871937CF36001D3C22 = {
 						TestTargetID = A08B5D5F1937CF36001D3C22;
 					};
 				};
 			};
-			buildConfigurationList = A08B5D5B1937CF36001D3C22 /* Build configuration list for PBXProject "SlideGame" */;
+			buildConfigurationList = A08B5D5B1937CF36001D3C22 /* Build configuration list for PBXProject "Slide'N Tap" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,8 +235,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A08B5D5F1937CF36001D3C22 /* SlideGame */,
-				A08B5D871937CF36001D3C22 /* SlideGameTests */,
+				A08B5D5F1937CF36001D3C22 /* Slide'N Tap */,
+				A08B5D871937CF36001D3C22 /* Slide'N TapTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,8 +248,9 @@
 			files = (
 				A08B5D701937CF36001D3C22 /* InfoPlist.strings in Resources */,
 				A08B5D831937CF36001D3C22 /* Images.xcassets in Resources */,
-				A08B5D811937CF36001D3C22 /* Spaceship.png in Resources */,
+				A0671846194148040000E64C /* homePage.png in Resources */,
 				A08B5D791937CF36001D3C22 /* Main.storyboard in Resources */,
+				A084BAAB194B8E9C0080B0B6 /* settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +289,7 @@
 /* Begin PBXTargetDependency section */
 		A08B5D8E1937CF36001D3C22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A08B5D5F1937CF36001D3C22 /* SlideGame */;
+			target = A08B5D5F1937CF36001D3C22 /* Slide'N Tap */;
 			targetProxy = A08B5D8D1937CF36001D3C22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -331,7 +338,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -369,7 +376,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -390,11 +397,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SlideGame/SlideGame-Prefix.pch";
-				INFOPLIST_FILE = "SlideGame/SlideGame-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SlideGame/Slide'N Tap-Prefix.pch";
+				INFOPLIST_FILE = "SlideGame/Slide'N Tap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Slide'N Tap";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,11 +416,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SlideGame/SlideGame-Prefix.pch";
-				INFOPLIST_FILE = "SlideGame/SlideGame-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SlideGame/Slide'N Tap-Prefix.pch";
+				INFOPLIST_FILE = "SlideGame/Slide'N Tap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Slide'N Tap";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -428,8 +445,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SlideGameTests/SlideGameTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SlideGameTests/Slide'N TapTests-Info.plist";
+				PRODUCT_NAME = "Slide'N TapTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -446,8 +463,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlideGame/SlideGame-Prefix.pch";
-				INFOPLIST_FILE = "SlideGameTests/SlideGameTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SlideGameTests/Slide'N TapTests-Info.plist";
+				PRODUCT_NAME = "Slide'N TapTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -456,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A08B5D5B1937CF36001D3C22 /* Build configuration list for PBXProject "SlideGame" */ = {
+		A08B5D5B1937CF36001D3C22 /* Build configuration list for PBXProject "Slide'N Tap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A08B5D971937CF36001D3C22 /* Debug */,
@@ -465,21 +482,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A08B5D991937CF36001D3C22 /* Build configuration list for PBXNativeTarget "SlideGame" */ = {
+		A08B5D991937CF36001D3C22 /* Build configuration list for PBXNativeTarget "Slide'N Tap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A08B5D9A1937CF36001D3C22 /* Debug */,
 				A08B5D9B1937CF36001D3C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A08B5D9C1937CF36001D3C22 /* Build configuration list for PBXNativeTarget "SlideGameTests" */ = {
+		A08B5D9C1937CF36001D3C22 /* Build configuration list for PBXNativeTarget "Slide'N TapTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A08B5D9D1937CF36001D3C22 /* Debug */,
 				A08B5D9E1937CF36001D3C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

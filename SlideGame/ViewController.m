@@ -15,17 +15,33 @@
 {
     [super viewDidLoad];
 
+    
+}
+- (void)viewWillLayoutSubviews
+{
+    
+    [super viewWillLayoutSubviews];
+    
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
     
-    // Create and configure the scene.
-    SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
-    
-    // Present the scene.
-    [skView presentScene:scene];
+    //set the view only once, if the device orientation is
+    //rotating viewWillLayoutSubviews will be called again
+    if ( !skView.scene )
+    {
+        // Configure the view.
+        SKView * skView = (SKView *)self.view;
+        skView.showsFPS = YES;
+        skView.showsNodeCount = YES;
+        
+        // Create and configure the scene.
+        SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
+        scene.scaleMode = SKSceneScaleModeAspectFill;
+        NSLog(@"width: %f",skView.bounds.size.width);
+        NSLog(@"height: %f",skView.bounds.size.height);
+        // Present the scene.
+        [skView presentScene:scene];
+    }
 }
 
 - (BOOL)shouldAutorotate
